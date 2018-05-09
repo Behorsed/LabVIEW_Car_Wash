@@ -51,18 +51,18 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../../../../LabVIEW Data/Car Wash/support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../../../../LabVIEW Data/Car Wash/support/User Event - Stop/User Event - Stop.lvlib"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../../../../LabVIEW Data/Car Wash/support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../../../../LabVIEW Data/Car Wash/support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../../../../LabVIEW Data/Car Wash/support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="EntryConsole.ctl" Type="VI" URL="../EntryConsole.ctl"/>
+			<Item Name="Entry Console.ctl" Type="VI" URL="../Entry Console.ctl"/>
 			<Item Name="UI.ctl" Type="VI" URL="../UI.ctl"/>
 		</Item>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../../../../LabVIEW Data/Car Wash/Main.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Vehicle Position Simulation.vi" Type="VI" URL="../Vehicle Position Simulation.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -100,7 +100,11 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Entry Console.ctl" Type="VI" URL="../Entry Console.ctl"/>
+			<Item Name="Check Loop Error.vi" Type="VI" URL="../support/Check Loop Error.vi"/>
+			<Item Name="EntryConsole.ctl" Type="VI" URL="../EntryConsole.ctl"/>
+			<Item Name="EntryConsole.ctl" Type="VI" URL="../../../Uczelnia/LabVIEW/Car Wash/EntryConsole.ctl"/>
+			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
+			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
@@ -127,7 +131,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
