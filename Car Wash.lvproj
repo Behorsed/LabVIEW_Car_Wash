@@ -58,9 +58,10 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+			<Item Name="Entry Display Data.ctl" Type="VI" URL="../Entry Display Data.ctl"/>
+			<Item Name="Position Slider.ctl" Type="VI" URL="../Position Slider.ctl"/>
 		</Item>
-		<Item Name="Entry Display Data.ctl" Type="VI" URL="../Entry Display Data.ctl"/>
+		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Wash display.vi" Type="VI" URL="../Wash display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
