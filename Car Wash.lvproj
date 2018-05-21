@@ -60,6 +60,8 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="Entry Display Data.ctl" Type="VI" URL="../Entry Display Data.ctl"/>
 			<Item Name="Position Slider.ctl" Type="VI" URL="../Position Slider.ctl"/>
+			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../Wash Step Controls.ctl"/>
+			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../Wash Step Indicators.ctl"/>
 		</Item>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
