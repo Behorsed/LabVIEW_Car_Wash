@@ -65,6 +65,7 @@
 		</Item>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
