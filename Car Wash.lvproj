@@ -72,7 +72,6 @@
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="CarWash Init.ini" Type="Document" URL="../CarWash Init.ini"/>
 		<Item Name="Configuration Data.ctl" Type="VI" URL="../Configuration/Configuration Data.ctl"/>
-		<Item Name="Control 2.ctl" Type="VI" URL="../../Control 2.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
