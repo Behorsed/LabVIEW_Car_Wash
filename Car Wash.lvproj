@@ -22,10 +22,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Configuration" Type="Folder">
+			<Item Name="CarWash Init.ini" Type="Document" URL="../Configuration/CarWash Init.ini"/>
+			<Item Name="Configuration Data — Controller.ctl" Type="VI" URL="../Configuration/Configuration Data — Controller.ctl"/>
+			<Item Name="Configuration Data.ctl" Type="VI" URL="../Configuration/Configuration Data.ctl"/>
+			<Item Name="Read CarWash Constants.vi" Type="VI" URL="../Configuration/Read CarWash Constants.vi"/>
+			<Item Name="Read CarWash Controller Constants.vi" Type="VI" URL="../Configuration/Read CarWash Controller Constants.vi"/>
 			<Item Name="Read Configuration Data.vi" Type="VI" URL="../Configuration/Read Configuration Data.vi"/>
 			<Item Name="Read UI Constans.vi" Type="VI" URL="../Configuration/Read UI Constans.vi"/>
 			<Item Name="Write Configuration Settings File.vi" Type="VI" URL="../Configuration/Write Configuration Settings File.vi"/>
-			<Item Name="CarWash Init.ini" Type="Document" URL="../CarWash Init.ini"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -72,10 +76,9 @@
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../Wash Step Indicators.ctl"/>
 		</Item>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
-		<Item Name="Configuration Data.ctl" Type="VI" URL="../Configuration/Configuration Data.ctl"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -112,55 +115,19 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="Entry Display Data.ctl" Type="VI" URL="../controls/Entry Display Data.ctl"/>
 			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
-			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../controls/Wash Step Indicators.ctl"/>
+			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Main Application" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F8BAE070-8383-465E-800B-3DF9D752A65B}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{96FCFFEE-92FF-41D7-8A5C-2E1B7D4F08B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Main Application</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9236DFC5-A1BE-45C5-93F4-A12737594CB8}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/Main.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main Application/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Main Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{8D31CF1E-BFEE-4FAB-AC90-991853A95B09}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
