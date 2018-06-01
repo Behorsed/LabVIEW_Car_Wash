@@ -11,6 +11,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -24,6 +25,7 @@
 			<Item Name="Read Configuration Data.vi" Type="VI" URL="../Configuration/Read Configuration Data.vi"/>
 			<Item Name="Read UI Constans.vi" Type="VI" URL="../Configuration/Read UI Constans.vi"/>
 			<Item Name="Write Configuration Settings File.vi" Type="VI" URL="../Configuration/Write Configuration Settings File.vi"/>
+			<Item Name="CarWash Init.ini" Type="Document" URL="../CarWash Init.ini"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -70,7 +72,6 @@
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../Wash Step Indicators.ctl"/>
 		</Item>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
-		<Item Name="CarWash Init.ini" Type="Document" URL="../CarWash Init.ini"/>
 		<Item Name="Configuration Data.ctl" Type="VI" URL="../Configuration/Configuration Data.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
@@ -119,6 +120,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Entry Display Data.ctl" Type="VI" URL="../controls/Entry Display Data.ctl"/>
+			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
+			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
+			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../controls/Wash Step Indicators.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
