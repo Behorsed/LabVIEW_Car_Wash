@@ -69,12 +69,7 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 			<Item Name="Car Wash System Globals.vi" Type="VI" URL="../Car Wash System Globals.vi"/>
 		</Item>
-		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="Entry Display Data.ctl" Type="VI" URL="../Entry Display Data.ctl"/>
-			<Item Name="Position Slider.ctl" Type="VI" URL="../Position Slider.ctl"/>
-			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../Wash Step Controls.ctl"/>
-			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../Wash Step Indicators.ctl"/>
-		</Item>
+		<Item Name="Type Definitions" Type="Folder"/>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
@@ -124,8 +119,8 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="Entry Display Data.ctl" Type="VI" URL="../controls/Entry Display Data.ctl"/>
-			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../controls/Wash Step Indicators.ctl"/>
+			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
 			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
