@@ -122,6 +122,7 @@
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../controls/Wash Step Indicators.ctl"/>
 			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
 			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
+			<Item Name="cluster.ctl" Type="VI" URL="../cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
