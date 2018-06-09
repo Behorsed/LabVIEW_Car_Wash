@@ -68,12 +68,14 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 			<Item Name="Car Wash System Globals.vi" Type="VI" URL="../Car Wash System Globals.vi"/>
+			<Item Name="Log Error.vi" Type="VI" URL="../support/Log Error.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder"/>
 		<Item Name="Car Wash Controller.vi" Type="VI" URL="../Car Wash Controller.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Wash Display.vi" Type="VI" URL="../Wash Display.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Current State.ctl" Type="VI" URL="../controls/Current State.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -117,16 +119,11 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 			</Item>
 			<Item Name="Entry Display Data.ctl" Type="VI" URL="../controls/Entry Display Data.ctl"/>
 			<Item Name="Wash Step Indicators.ctl" Type="VI" URL="../controls/Wash Step Indicators.ctl"/>
 			<Item Name="Position Slider.ctl" Type="VI" URL="../controls/Position Slider.ctl"/>
 			<Item Name="Wash Step Controls.ctl" Type="VI" URL="../controls/Wash Step Controls.ctl"/>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Controller Data.ctl" Type="VI" URL="../Controller Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
