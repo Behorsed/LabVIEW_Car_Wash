@@ -1,0 +1,71 @@
+
+
+14:57:41 2018-06-09
+5004 <err>The invalid message string "Vehicle  Position" was
+received in the Wash Display LoopStation: 0 State:0
+
+
+
+14:59:23 2018-06-09
+5004 <err>The invalid message string "Check " was
+received in the Car Wash Controller LoopStation: 0 State:0
+
+
+
+15:02:56 2018-06-09
+5004 <err>The invalid message string "Check " was
+received in the Car Wash Controller LoopStation: 2 State:7
+
+
+
+15:04:11 2018-06-09
+5004 <err>The invalid message string "Check " was
+received in the Car Wash Controller LoopStation: 2 State:Tire Shine Foam
+
+
+
+15:07:46 2018-06-09
+5004 <err>The invalid message string "Check" was
+received in the Car Wash Controller LoopStation: 2 State:Tire Shine Foam
+
+
+
+15:11:50 2018-06-09
+5004 <err>The invalid message string "Check " was
+received in the Car Wash Controller LoopStation: 1 State:Pre-Soak
+
+
+
+15:11:50 2018-06-09
+5004 <err>The invalid message string "Check " was
+received in the Car Wash Controller LoopStation: 1 State:Pre-Soak
+
+
+
+15:15:42 2018-06-09
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 3 State:Air Dry
+
+
+
+15:15:42 2018-06-09
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 3 State:Air Dry
+
+
+
+15:15:42 2018-06-09
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 3 State:Air Dry
+
+
+
