@@ -105,3 +105,12 @@ Station: 2 State:Exit
 
 
 
+21:58:49 2018-06-11
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 0 State:Under Body Wash
+
+
+
