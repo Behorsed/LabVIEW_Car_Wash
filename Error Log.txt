@@ -69,3 +69,39 @@ Station: 3 State:Air Dry
 
 
 
+17:35:59 2018-06-11
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 2 State:Exit
+
+
+
+17:35:59 2018-06-11
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 2 State:Exit
+
+
+
+17:36:25 2018-06-11
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 2 State:Exit
+
+
+
+17:36:25 2018-06-11
+1 Main.vi<ERR>
+Wash Cycle Error
+
+
+Station: 2 State:Exit
+
+
+
